@@ -11,7 +11,11 @@ but is now offered as a web application for hands on evaluation.
 MemAssist Can be accessed here: [https://memassist.lezos.gr](https://memassist.lezos.gr)
 
 A detailed documentation of the tool will soon be available.
-Until then, you may refer to the following publication:
+Until then, you may refer to the following publication.
+
+## References
+
+For more information on MemAssist and how it works refer to:
 
 > [A Locality Optimizer for Loop-Dominated Applications Based on Reuse Distance Analysis](https://dl.acm.org/doi/10.1145/3398189?cid=99658696775)
 > <br />
