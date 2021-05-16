@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="description" content="MemAssist - A Locality Optimizer for Loop-Dominated Applications Based on Reuse Distance Analysis">
+    <meta name="keywords" content="memassist, reuse distance analysis, locality optimization, source code analysis">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <title>MemAssist - Locality & Cache Memory Optimization Tool</title>
+
+    <link rel="canonical" href="https://memassist.github.io">
+
+    <link rel="preconnect" href="//google-analytics.com/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main.min.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="px-4 py-5 my-5 text-center">
+                <img class="d-block mx-auto mb-4" src="/images/memassist-cache-memory-optimization-tool.png" alt="" width="60" height="60">
+                <h1 class="display-5 fw-bold">MemAssist</h1>
+                <h2>Cache Memory Optimization Tool</h2>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4 text-justify">
+                        <strong>MemAssist</strong> is a compiler assisted dynamic code analysis tool that supports the
+                        optimization of application code in C or MATLAB. It is used to indicate source code refactorings/optimizations that may improve
+                        temporal locality and reduce cache misses on the targeted architecture cache(s).
+                        The tool has been primarily deployed as an extension for the Visual Studio IDE
+                        but is now offered as a web application for hands on evaluation.
+                    </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a class="btn btn-primary btn-lg px-4 gap-3" href="https://memassist.lezos.gr" target="_blank" title="MemAssist Demo">
+                            Demo of the Tool
+                        </a>
+                        <a class="btn btn-outline-secondary btn-lg px-4" href="https://dl.acm.org/doi/10.1145/3398189?cid=99658696775" target="_blank" title="A Locality Optimizer for Loop-Dominated Applications Based on Reuse Distance Analysis">
+                            Read the Publication
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <h2>Optimize your algorithms in terms of data locality</h2>
+                <p>
+                    For more information on MemAssist and how it works refer to:
+                </p>
+                <figure class="text-center">
+                    <blockquote class="blockquote">
+                        <p>
+                            <a href="https://dl.acm.org/doi/10.1145/3398189?cid=99658696775" target="_blank" title="A Locality Optimizer for Loop-Dominated Applications Based on Reuse Distance Analysis">
+                                A Locality Optimizer for Loop-Dominated Applications Based on Reuse Distance Analysis
+                            </a>
+                        </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Christakis Lezos, Grigoris Dimitroulakos, Ioannis Latifis, Konstantinos Masselos
+                        <br />
+                        <cite title="ACM TODAES">ACM Transactions on Design Automation of Electronic Systems (TODAES)</cite>, Volume 25 Issue 6, September 2020
+                    </figcaption>
+                </figure>
+                <p>
+                    <em>
+                        Free access to the PDF is provided through the ACM Author-izer service.
+                        <br />
+                        By clicking the link above, you will be transferred to the ACM Digital Library
+                        page of the publication where the PDF download link will be automatically unlocked.
+                    </em>
+                </p>
+            </div>
+        </div>
+    </main>
+
+<!--    <footer class="fixed-bottom">-->
+<!--        <div class="container mt-0 text-center">-->
+<!--            <span class="text-muted">Place sticky footer content here.</span>-->
+<!--        </div>-->
+<!--    </footer>-->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- ========================================================== -->
+
+    <!-- Custom JS -->
+    <!--<script async src="main.min.js"></script>-->
+
+    <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-186931777-2']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</body>
+</html>

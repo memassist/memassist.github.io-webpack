@@ -1,0 +1,58 @@
+{
+  "name": "memassist.github.io",
+  "version": "1.0.0",
+  "description": "[memassist.github.io](https://memassist.github.io)",
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://memassist.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memassist/memassist.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/memassist/memassist.github.io/issues"
+  },
+  "main": "src/main.js",
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development webpack --watch",
+    "serve": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build:dev": "cross-env NODE_ENV=development webpack",
+    "build:prod": "cross-env NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "autoprefixer": "^10.2.5",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^8.1.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "html-minimizer-webpack-plugin": "^2.1.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "postcss": "^8.2.15",
+    "postcss-loader": "^5.3.0",
+    "sass": "^1.32.13",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.2",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 ie version"
+    ]
+  }
+}
