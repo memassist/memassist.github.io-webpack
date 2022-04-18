@@ -1,6 +1,8 @@
-# MemAssist
+# MemAssist Website
 
-[memassist.github.io](https://memassist.github.io)
+This is an older version of the [memassist.github.io](https://memassist.github.io) website source, based on webpack.
+
+For the current version, please visit [https://github.com/memassist/memassist.github.io](https://github.com/memassist/memassist.github.io).
 
 ## Build Setup
 
